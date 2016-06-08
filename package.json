@@ -1,0 +1,14 @@
+{
+  "name": "badoet",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "lite-server",
+    "lite": "lite-server"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^2.0.0",
+    "lite-server": "^2.2.0",
+    "nodemon": "^1.9.2"
+  }
+}
