@@ -165,8 +165,8 @@ jQuery(function ($) {
 		toggle: function (e) {
 			var i = this.indexFromEl(e.target);
 			this.todos[i].completed = !this.todos[i].completed;
-      if (this.getActiveTodos().length === 0) {
-				alert('All todos completed!');
+      			if (this.getActiveTodos().length === 0) {
+			alert('All todos completed!');
 			}
 			this.render();
 		},
